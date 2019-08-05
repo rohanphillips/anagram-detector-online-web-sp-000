@@ -9,6 +9,6 @@ class Anagram
 
   def match(anagram_text)
     binding.pry
-    anagram_text.select{|n| n.sort.chars.join == self.anagram_text.sort.chars.join}
+    anagram_text.select{|n| n.chars.sort.join == self.anagram_text.chars.sort.join}
   end
 end
