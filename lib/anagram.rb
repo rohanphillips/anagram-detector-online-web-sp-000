@@ -7,6 +7,6 @@ class Anagram
   end
 
   def match(anagram_text)
-    #collection = %w(self.anagram_text)
+    collection = %w(anagram_text)
   end
 end
