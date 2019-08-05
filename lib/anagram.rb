@@ -7,6 +7,6 @@ class Anagram
   end
 
   def match(anagram_text)
-
+    anagram_text
   end
 end
