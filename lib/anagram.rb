@@ -7,6 +7,6 @@ class Anagram
   end
 
   def match(anagram_text)
-    anagram_text.collect{|n| n == self.anagram_text}
+    anagram_text.select{|n| n == self.anagram_text}
   end
 end
