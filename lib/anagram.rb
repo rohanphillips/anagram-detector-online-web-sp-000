@@ -5,4 +5,8 @@ class Anagram
   def initialize(anagram_text)
     self.anagram_text = anagram_text
   end
+
+  def match
+    collection = %w(self.anagram_text)
+  end
 end
